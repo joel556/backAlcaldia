@@ -1,0 +1,21 @@
+1. Descargar GIT (Descargar e Instalar)
+    - https://git-scm.com/
+2. Configurar para empear a trabajar con GIT
+    > git config --global user.name "Su Nombre"
+    > git config --global user.email sucorreo@mail.com
+--------------------------------------------------------
+Si ya existe el Repositorio
+    > git clone <direccion_repositorio>
+Si no existe el Repositorio
+    > git init
+
+Crear un repositorio Remoto (GITHUB, BITBUCKET, GITLAB)
+
+    > git remote add origin https://github.com/cchura94/backend_proyecto_la.git
+--------------------------------------------------------
+Cada vez que modifican el codigo:
+
+git add .
+git commit -m "Login Api Rest Laravel"
+git push origin master
+--------------------------------------------------------
